@@ -1,16 +1,58 @@
-# React + Vite
+🍽️ Craveo
+Modern Online Food Ordering Web Application
+<p align="center"> <img src="public/appLogo.png" width="90" /> </p> <p align="center"> <b>React • Vite • Tailwind CSS • React Router DOM</b> </p>
+✨ About the Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Craveo is a modern, mobile-first online food ordering web application built with React and Vite, styled using Tailwind CSS, and powered by React Router DOM.
+The project emphasizes clean UI design, reusable components, and scalable frontend architecture.
 
-Currently, two official plugins are available:
+The application features dynamic food cards with cart functionality, global state management using the Context API, lazy-loaded images for performance optimization, and smooth hover and transition effects. The layout adapts seamlessly across mobile, tablet, and desktop devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Key Features
 
-## React Compiler
+✔ Mobile-first responsive design
+✔ Reusable React functional components
+✔ Cart management using Context API
+✔ Lazy image loading for better performance
+✔ Smooth animations and hover effects
+✔ Client-side routing with React Router
+✔ Clean, scalable folder structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+Frontend: React (Vite)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS
+
+Routing: React Router DOM
+
+State Management: Context API
+
+Icons: Lucide React
+
+Version Control: Git & GitHub
+
+📱 Responsive Design
+
+Designed with a mobile-first approach, Craveo ensures optimal usability across all screen sizes, from smartphones to large desktop displays.
+
+🔮 Future Enhancements
+
+Backend integration (Node.js, Express, MongoDB)
+
+User authentication & authorization
+
+Payment gateway integration
+
+Order history & tracking
+
+Admin dashboard for food management
+
+👨‍💻 Author
+
+Abinash Nayak
+Frontend Developer | React • Tailwind CSS
+
+📜 License
+
+This project is licensed under the MIT License.
