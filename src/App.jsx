@@ -6,7 +6,9 @@ import Cart from "./pages/Cart/Cart.jsx";
 import PlaceOrder from "./pages/PlaceOrder/PlaceOrder.jsx";
 import ReactLenis from "lenis/react";
 import ContactUs from "./pages/ContactUs/ContactUs.jsx";
-import Auth from "./pages/UserAuth/UserAuth.jsx";
+import UserLogin from "./pages/UserAuth/UserLogin.jsx";
+import UserSignup from "./pages/UserAuth/UserSignUp.jsx";
+import Layout from "./pages/Layout/Layout.jsx";
 
 const App = () => {
   return (
@@ -24,14 +26,16 @@ const App = () => {
           touchMultiplier: 2,
         }}
       >
-        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/menu" element={<div>Menu Page</div>} />
-          <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/login" element={<Auth />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/placeorder" element={<PlaceOrder />} />
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/menu" element={<div>Menu Page</div>} />
+            <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/login" element={<UserLogin />} />
+            <Route path="/signup" element={<UserSignup />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/placeorder" element={<PlaceOrder />} />
+          </Route>
         </Routes>
       </ReactLenis>
     </div>
