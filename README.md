@@ -53,6 +53,3 @@ Admin dashboard for food management
 Abinash Nayak
 Frontend Developer | React • Tailwind CSS
 
-📜 License
-
-This project is licensed under the MIT License.
